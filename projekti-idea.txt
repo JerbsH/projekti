@@ -1,0 +1,11 @@
+projektin aihe: Helsingin koirien ulkoilutus mahdollisuuksia.
+
+sivulla:
+- main sivu = esittelysivu mikä sivu mitä sieltä löytyy
+- nav valikko sivujen välillä siirtymiseen
+- kartta joka kertoo lähimmät paikat (gps)
+- listaus sivu, jolla: sää, enemmän tietoo paikoista
+- esittelyvideo ja kuvia
+(- kommentti osio)
+	
+	

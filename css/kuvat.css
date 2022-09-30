@@ -32,3 +32,12 @@ div p {
 div img {
 	margin: 10px;
 }
+#kuvat {
+	background-color: #f6f4f3;
+	border-radius: 10px;
+}
+video {
+	background-color: #f6f4f3;
+	padding: 10px;
+	border-radius: 5px;
+}

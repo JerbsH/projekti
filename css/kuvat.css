@@ -23,7 +23,7 @@ div {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 50px;
-	background-color: #f6f4f3;
+	justify-content: center;
 }
 div p {
 	width: 50%;

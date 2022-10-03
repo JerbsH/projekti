@@ -20,6 +20,9 @@ nav a {
 	border-radius: 5px;
 	color: #251605;
 }
+a:hover {
+	background-color: #ff8356;
+}
 div {
 	display: flex;
 	flex-wrap: wrap;

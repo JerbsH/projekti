@@ -3,16 +3,19 @@ body {
 	background-color: #74bd1b;
 }
 header {
-	width: 100%;
+	justify-content: center;
 	text-align: center;
 	background-color: #00a7e1;
 	padding: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 nav {
-	width: 100%;
 	text-align: center;
 	background-color: #f6f4f3;
 	padding: 10px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 nav a {
 	background-color: #f44708;
@@ -28,9 +31,13 @@ div {
 	flex-wrap: wrap;
 	margin: 50px;
 	background-color: #f6f4f3;
+	border-radius: 15px;
+}
+#teksti {
+	width: 25%;
+	justify-content: center;
 }
 div p {
-	width: 50%;
 	margin: 10px;
 }
 div img {
@@ -43,5 +50,10 @@ div img {
 video {
 	background-color: #f6f4f3;
 	padding: 10px;
-	border-radius: 5px;
+	border-radius: 15px;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }

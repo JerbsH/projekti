@@ -1,4 +1,4 @@
-/* Tehnyt: Jere, Päivitetty: 3.10.2022 */
+/* Tehnyt: Jere, Päivitetty: 3.10.2022, Atte päivitti 5.10. */
 body {
 	background-color: #74bd1b;
 }
@@ -33,6 +33,13 @@ div p {
 	width: 50%;
 	margin: 10px;
 }
+
 div img {
 	margin: 10px;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
 }

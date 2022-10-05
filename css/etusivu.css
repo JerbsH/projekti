@@ -36,6 +36,10 @@ div p {
 div img {
 	margin: 10px;
 }
+#video {
+	background: none;
+	justify-content: center;
+}
 video {
 	background-color: #f6f4f3;
 	padding: 10px;

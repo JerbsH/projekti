@@ -1,4 +1,4 @@
-/* Tehnyt: Jere, Päivitetty: 30.09.2022 */
+/* Tehnyt: Jere, Päivitetty: 5.10.2022 */
 body {
 	background-color: #74bd1b;
 }
@@ -10,6 +10,8 @@ header {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
+
+/* NAV tagien muokkaukset alkaa*/
 nav {
 	text-align: center;
 	background-color: #f6f4f3;
@@ -26,6 +28,9 @@ nav a {
 a:hover {
 	background-color: #ff8356;
 }
+/* NAV muokkaukset loppuu */
+
+/* DIV muokkaukset alkaa */
 div {
 	display: flex;
 	flex-wrap: wrap;
@@ -47,6 +52,8 @@ div img {
 	background: none;
 	justify-content: center;
 }
+/*DIV muokkaukset loppuu*/
+
 video {
 	background-color: #f6f4f3;
 	padding: 10px;

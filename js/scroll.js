@@ -1,3 +1,5 @@
+//Tehnyt: Jere, muokattu 5.10.2022
+//Netistä löydettyä ideaa hieman sovellettu
 var video = document.getElementById('video');
 
 function fadeOutOnScroll(element) {

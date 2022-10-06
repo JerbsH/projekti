@@ -3,16 +3,18 @@ body {
 	background-color: #74bd1b;
 }
 header {
-	width: 100%;
 	text-align: center;
 	background-color: #00a7e1;
 	padding: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 nav {
-	width: 100%;
 	text-align: center;
 	background-color: #f6f4f3;
 	padding: 10px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 nav a {
 	background-color: #f44708;
@@ -23,16 +25,27 @@ nav a {
 a:hover {
 	background-color: #ff8356;
 }
-div {
+/*div {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 50px;
 	background-color: #f6f4f3;
 }
-div p {
-	width: 50%;
-	margin: 10px;
+*/
+#kartta {
+	height: 400px;
+	background-color: #f6f4f3;
+	margin: 40px;
+	border-radius: 15px;
 }
-div img {
-	margin: 10px;
+button {
+	margin: 5px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: medium;
+	padding: 5px;
+	border-radius: 15px;
+}
+button:hover {
+	background-color: #ff8356;
+	color: #251605;
 }

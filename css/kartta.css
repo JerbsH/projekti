@@ -25,21 +25,22 @@ nav a {
 a:hover {
 	background-color: #ff8356;
 }
-/*div {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 50px;
-	background-color: #f6f4f3;
-}
-*/
 #kartta {
 	height: 400px;
 	background-color: #f6f4f3;
 	margin: 40px;
 	border-radius: 15px;
 }
+#teksti {
+	margin: 40px;
+	background-color: #f6f4f3;
+	border-radius: 15px;
+	text-align: center;
+	padding: 10px;
+	font-size: large;
+}
 button {
-	margin: 5px;
+	margin: 15px;
 	font-family: "Josefin Sans", sans-serif;
 	font-size: medium;
 	padding: 5px;

@@ -1,7 +1,7 @@
 /* Tehnyt: Jere, Päivitetty: 30.09.2022 */
 /* Muokattu 09.10.2022 ^Juho */
 body {
-	background-color: #74bd1b;
+	background-color: #379b37;
 }
 header {
 	text-align: center;
@@ -40,16 +40,35 @@ div img {
 	margin: 10px;
 }
 #kuvat {
-	background-color: #f6f4f3;
+	background-color: #92d96e;
 	border-radius: 10px;
 }
+
 
 button {
 	display: block;
 	width: 200px;
 	height: 50px;
 	margin: auto;
+	padding: 15px 25px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #195719;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #92d96e;
+}
 
+button:hover {background-color: #145916
+}
+
+button:active {
+	background-color: #195719;
+	box-shadow: 0 5px #6aea6a;
+	transform: translateY(4px);
 }
 img {
 	width:100%;

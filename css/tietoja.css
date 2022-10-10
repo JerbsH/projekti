@@ -4,6 +4,11 @@ body {
 	background-color: #379b37;
 }
 header {
+	background-image: url(../img/headeri.jpg);
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	height: 300px;
 	text-align: center;
 	background-color: #00a7e1;
 	padding: 10px;

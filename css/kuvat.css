@@ -59,7 +59,7 @@ div img {
 	margin: 10px;
 }
 #kuvat {
-	background-color: #92d96e;
+	/*background-color: #92d96e;*/
 	border-radius: 10px;
 }
 
@@ -95,6 +95,14 @@ img {
 	max-height:720px;
 
 
+}
+article {
+	max-width: 33%;
+	max-height: 75%;
+	align-items: center;
+	background: #92d96e;
+	margin: 5px;
+	border-radius: 15px;
 }
 @media only screen {
 	img {

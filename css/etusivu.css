@@ -66,14 +66,17 @@ div {
 }
 div p {
 	margin: 10px;
+	line-height: 1.5;
+	font-size: larger;
 }
 div img {
 	margin: 10px;
+	max-width: 75%;
+	max-height: 75%;
 }
 #video {
 	background: none;
 	justify-content: center;
-	max-width: 100%;
 }
 /*DIV muokkaukset loppuu*/
 
@@ -81,6 +84,7 @@ video {
 	background-color: #f6f4f3;
 	padding: 10px;
 	border-radius: 15px;
+	max-width: 85%;
 }
 section {
 	display: flex;

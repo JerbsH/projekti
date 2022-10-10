@@ -35,8 +35,8 @@ div {
 div p {
 	width: 50%;
 	margin: 10px;
+	
 }
-
 div img {
 	margin: 10px;
 }
@@ -45,4 +45,6 @@ main {
 	flex-wrap: wrap;
 	width: 100%;
 	text-align: center;
+	background-color: #f6f4f3;
+	border-radius: 15px;
 }

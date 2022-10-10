@@ -16,6 +16,18 @@ header {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
+h1 {
+	font-size: 42px;
+	border-radius: 15px;
+	padding: 5px;
+	background: rgba(95, 124, 241, 0.4);
+	display:inline-block;
+	margin: 0;
+	position: relative;
+	top: 70%;
+	color: black;
+
+}
 nav {
 	text-align: center;
 	background-color: #f6f4f3;
@@ -59,11 +71,21 @@ main {
 	header {
 		height: 150px;
 	}
+	h1 {
+		margin: 0;
+	position: relative;
+	top: 60%;
+	}
 	
 }
 @media only screen and (max-width: 1330px) and (min-width: 768px){
 	header {
 		height: 175px;
+	}
+	h1 {
+		margin: 0;
+	position: relative;
+	top: 60%;
 	}
 }
 @media only screen and (max-width: 550px){
@@ -78,5 +100,10 @@ main {
 	}
 	header {
 		height: 150px;
+	}
+	h1 {
+		margin: 0;
+		position: relative;
+		top: 30%;
 	}
 }

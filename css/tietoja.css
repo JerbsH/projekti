@@ -55,3 +55,28 @@ main {
 	background-color: #f6f4f3;
 	border-radius: 15px;
 }
+@media only screen and (max-width: 768px){
+	header {
+		height: 150px;
+	}
+	
+}
+@media only screen and (max-width: 1330px) and (min-width: 768px){
+	header {
+		height: 175px;
+	}
+}
+@media only screen and (max-width: 550px){
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+	}
+	nav a {
+		margin: 2px;
+		padding: 5px;
+	}
+	header {
+		height: 150px;
+	}
+}

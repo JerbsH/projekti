@@ -9,7 +9,7 @@ header {
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 300px;
+	height: 225px;
 	justify-content: center;
 	text-align: center;
 	background-color: #2AB7CA;
@@ -89,6 +89,9 @@ section {
 		max-height: 720px;
 		max-width: 85%;
 	}
+	header {
+		height: 150px;
+	}
 	
 }
 @media only screen and (max-width: 1330px) and (min-width: 768px){
@@ -103,6 +106,9 @@ section {
 		max-height: 100%;
 		margin: 10px;
 		max-width: 85%;
+	}
+	header {
+		height: 175px;
 	}
 }
 @media only screen and (max-width: 550px){
@@ -127,5 +133,7 @@ section {
 		margin: 2px;
 		padding: 5px;
 	}
-	
+	header {
+		height: 150px;
+	}
 }

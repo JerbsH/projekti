@@ -33,6 +33,13 @@ h1 {
 	color: black;
 
 }
+h2 {
+	background: rgb(95, 124, 241);
+	padding: 10px;
+	display:inline-block;
+	border-radius: 15px;
+	margin: 10px;
+}
 nav {
 	text-align: center;
 	background-color: #f6f4f3;
@@ -50,18 +57,7 @@ nav a {
 a:hover {
 	background-color: #ff8356;
 }
-div {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 50px;
-	background-color: #f6f4f3;
-}
-div p {
-	width: 50%;
-	margin: 10px;
-	
-}
-div img {
+p {
 	margin: 10px;
 }
 section {

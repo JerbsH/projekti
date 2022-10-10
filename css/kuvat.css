@@ -63,7 +63,7 @@ button {
 	cursor: pointer;
 	outline: none;
 	color: #251605;
-	background-color: #f44708;
+	background-color: #FE4A49;
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 7px #ff8356;
@@ -73,7 +73,7 @@ button:hover {background-color: #ff8356
 }
 
 button:active {
-	background-color: #f44708;
+	background-color: #FE4A49;
 	box-shadow: 0 5px #ff8356;
 	transform: translateY(4px);
 }
@@ -83,7 +83,7 @@ img {
 
 
 }
-@media only screen and (max-width: 1280px) {
+@media only screen {
 	img {
 		max-width: 100%;
 		max-height: 100%;

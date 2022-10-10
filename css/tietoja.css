@@ -3,6 +3,11 @@
 body {
 	background-color: #379b37;
 }
+article {
+	margin: 10px;
+	background-color: #f6f4f3;
+	border-radius: 15px;
+}
 header {
 	background-image: url(../img/headeri.jpg);
 	background-position-x: center;
@@ -59,13 +64,12 @@ div p {
 div img {
 	margin: 10px;
 }
-main {
+section {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	text-align: center;
-	background-color: #f6f4f3;
-	border-radius: 15px;
+	margin-top: 30px;
 }
 @media only screen and (max-width: 768px){
 	header {

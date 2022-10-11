@@ -26,17 +26,16 @@ h1 {
 	border-radius: 15px;
 	padding: 5px;
 	background: rgba(95, 124, 241, 0.4);
-	display:inline-block;
+	display: inline-block;
 	margin: 0;
 	position: relative;
 	top: 70%;
 	color: black;
-
 }
 h2 {
 	background: rgb(95, 124, 241);
 	padding: 10px;
-	display:inline-block;
+	display: inline-block;
 	border-radius: 15px;
 	margin: 10px;
 }
@@ -48,9 +47,9 @@ nav {
 	border-bottom-right-radius: 15px;
 }
 nav a {
-	background-color: #FE4A49;
+	background-color: #fe4a49;
 	padding: 15px;
-	margin: 10px ;
+	margin: 10px;
 	border-radius: 5px;
 	color: #251605;
 }
@@ -67,28 +66,27 @@ section {
 	text-align: center;
 	margin-top: 30px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 	header {
 		height: 150px;
 	}
 	h1 {
 		margin: 0;
-	position: relative;
-	top: 60%;
+		position: relative;
+		top: 60%;
 	}
-	
 }
-@media only screen and (max-width: 1330px) and (min-width: 768px){
+@media only screen and (max-width: 1330px) and (min-width: 768px) {
 	header {
 		height: 175px;
 	}
 	h1 {
 		margin: 0;
-	position: relative;
-	top: 60%;
+		position: relative;
+		top: 60%;
 	}
 }
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 550px) {
 	nav {
 		display: flex;
 		flex-direction: column;

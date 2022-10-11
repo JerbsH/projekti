@@ -1,3 +1,4 @@
+//Tehnyt: Atte, päivitetty 10.10.2022
 "use strict";
 
 const sectionElem = document.querySelector("section");

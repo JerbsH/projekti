@@ -1,7 +1,9 @@
 //Tehnyt: Jere, päivitetty 7.10.2022
 //Tehty Googlen maps ja places API esimerkkien pohjalta ja niitä yhdistelemällä
+//Hakee käyttäjän paikan ja etsii lähistöltä koirapuistot 5km säteellä
 let map, infoWindow;
 
+//keskittää kartan Helsingin kohdalle
 function initMap() {
 	map = new google.maps.Map(document.getElementById("kartta"), {
 		center: { lat: 60.2, lng: 24.9 },
@@ -66,7 +68,7 @@ function initMap() {
 		}
 	});
 }
-
+//Errorit jos paikan haku ei toimi
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 	infoWindow.setPosition(pos);
 	infoWindow.setContent(

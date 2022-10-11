@@ -1,4 +1,5 @@
 //Tehnyt: Juho, päivitetty 9.10.2022
+//luo sivulle satunnaisia koirakuvia dog apin avulla
 "use strict";
 
 const apiurl = "https://dog.ceo/api/breeds/image/random/8";

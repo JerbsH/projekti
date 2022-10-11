@@ -1,5 +1,6 @@
 //Tehnyt: Jere, muokattu 5.10.2022
 //Netistä löydettyä ideaa hieman sovellettu
+//Säätää etusivun videon häviämään kun sivua kelaa alaspäin
 var video = document.getElementById("video");
 
 function fadeOutOnScroll(element) {

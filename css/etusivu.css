@@ -101,37 +101,6 @@ section {
 	justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
-	div {
-		width: 100%;
-		margin: 10px;
-	}
-	.teksti {
-		width: 100%;
-	}
-	video {
-		margin: 10px;
-		max-height: 720px;
-		max-width: 85%;
-	}
-	header {
-		height: 150px;
-	}
-	h1 {
-		margin: 0;
-		position: relative;
-		top: 60%;
-	}
-	nav {
-		display: flex;
-		flex-direction: column;
-		padding: 5px;
-	}
-	nav a {
-		margin: 2px;
-		padding: 5px;
-	}
-}
 @media only screen and (max-width: 1330px) and (min-width: 768px) {
 	div {
 		width: 100%;
@@ -154,7 +123,7 @@ section {
 		top: 60%;
 	}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	div {
 		width: 100%;
 		margin: 10px;

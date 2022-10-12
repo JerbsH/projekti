@@ -120,6 +120,15 @@ figure {
 	div {
 		margin: 15px;
 	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+	}
+	nav a {
+		margin: 2px;
+		padding: 5px;
+	}
 }
 @media only screen and (max-width: 1330px) and (min-width: 768px) {
 	header {

@@ -104,32 +104,7 @@ figure {
 		margin: 0;
 	}
 }
-@media only screen and (max-width: 768px) {
-	header {
-		height: 150px;
-	}
-	h1 {
-		margin: 0;
-		position: relative;
-		top: 60%;
-	}
-	article {
-		max-width: 50%;
-		max-height: 75%;
-	}
-	div {
-		margin: 15px;
-	}
-	nav {
-		display: flex;
-		flex-direction: column;
-		padding: 5px;
-	}
-	nav a {
-		margin: 2px;
-		padding: 5px;
-	}
-}
+
 @media only screen and (max-width: 1330px) and (min-width: 768px) {
 	header {
 		height: 175px;
@@ -147,7 +122,7 @@ figure {
 		margin: 15px;
 	}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	nav {
 		display: flex;
 		flex-direction: column;

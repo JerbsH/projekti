@@ -88,7 +88,7 @@ button:hover {
 		top: 60%;
 	}
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 	nav {
 		display: flex;
 		flex-direction: column;
